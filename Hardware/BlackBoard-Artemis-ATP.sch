@@ -29539,8 +29539,6 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="J2" library="SparkFun-Connectors" deviceset="CORTEX_DEBUG_MINIMUM" device="_PTH_NS" value="CORTEX_DEBUG"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="TP5" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP6" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0603-10V-20%" value="2.2uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -29863,12 +29861,6 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="NAME" x="26.924" y="129.54" size="1.778" layer="95" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="23.876" y="129.54" size="1.778" layer="96" font="vector" rot="MR90" align="top-center"/>
 </instance>
-<instance part="TP5" gate="G$1" x="134.62" y="30.48" smashed="yes">
-<attribute name="NAME" x="134.62" y="31.496" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP6" gate="G$1" x="134.62" y="25.4" smashed="yes">
-<attribute name="NAME" x="134.62" y="26.416" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="C1" gate="G$1" x="20.32" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="17.399" y="138.684" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="22.479" y="138.684" size="1.778" layer="96" font="vector" rot="R90"/>
@@ -29937,9 +29929,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="GND35" gate="1" x="45.72" y="119.38" smashed="yes">
 <attribute name="VALUE" x="45.72" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J7" gate="G$1" x="139.7" y="17.78" smashed="yes" rot="R180">
-<attribute name="VALUE" x="142.24" y="22.606" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="142.24" y="12.192" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J7" gate="G$1" x="139.7" y="30.48" smashed="yes" rot="R180">
+<attribute name="VALUE" x="142.24" y="35.306" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="142.24" y="24.892" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="C28" gate="G$1" x="30.48" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="28.321" y="86.106" size="1.778" layer="95" font="vector" rot="MR90"/>
@@ -29996,13 +29988,9 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="129.54" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="40.64" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="129.54" y="38.1"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="30.48" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="30.48" x2="129.54" y2="17.78" width="0.1524" layer="91"/>
-<junction x="129.54" y="30.48"/>
+<wire x1="129.54" y1="38.1" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
@@ -30020,14 +30008,10 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="127" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="40.64" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
 <junction x="119.38" y="35.56"/>
-<pinref part="TP6" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="25.4" x2="127" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="127" y1="25.4" x2="127" y2="35.56" width="0.1524" layer="91"/>
 <junction x="127" y="35.56"/>
-<wire x1="127" y1="25.4" x2="127" y2="15.24" width="0.1524" layer="91"/>
-<junction x="127" y="25.4"/>
+<wire x1="127" y1="35.56" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="127" y1="15.24" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="127" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
