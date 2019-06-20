@@ -1,22 +1,21 @@
-SparkFun BlackBoard
+SparkFun BlackBoard Artemis ATP
 ============================
 
-[![SparkFun RedBoard](https://cdn.sparkfun.com//assets/parts/1/2/8/6/7/14669-BlackBoard-01.jpg)  
-*SparkFun BlackBoard (SPX-14669)*](https://www.sparkfun.com/products/14669)
+[![SparkFun BlackBoard Artemis ATP](https://cdn.sparkfun.com//assets/parts/1/3/9/6/4/15412-BlackBoard_Artemis_Mega-02.jpg)  
+*SparkFun BlackBoard Artemis ATP (SPX-15412)*](https://www.sparkfun.com/products/15412)
 
-The BlackBoard from SparkFun is everything you need in an Arduino Uno with *many* extra perks. BlackBoard has all of the hardware peripherals you know and love: 14 Digital I/O pins with 6 PWM pins, 6 Analog Inputs, UART, SPI and external interrupts. BlackBoard even has an SMD ISP header to connect SPI pins to shields.
+The BlackBoard Artemis ATP is affectionately called 'All the Pins!' at SparkFun. The Artemis module has 48 GPIO and this board breaks out absolutely every one of them in a familiar Mega like form factor. What's with the silkscreen labels? They're all over the place. We decided to label the pins as they are assigned on the Apollo3 IC itself. This makes finding the pin with the function you desire a lot easier. Have a look at the [full pin map](https://cdn.sparkfun.com/assets/8/2/3/3/c/Apollo3_Pad_Mapping.pdf) from the Apollo3 datasheet. If you really need to test out the 4-bit SPI functionality of the Artemis you're going to need to access pins 4, 22, 23, and 26. Need to try out the differential ADC port 1? Pins 14 and 15. The BlackBoard Artemis ATP will allow you to flex the impressive capabilities of the Artemis module.
 
-We've applied every lesson we've learned about making a better Uno and created the BlackBoard. The USB to serial is now done with the ubiquitous CH340G requiring fewer driver installs and a rock solid microB connector with through hole anchoring. The power portion of the BlackBoard has been reworked: we upgraded the 3.3V regulator to provide up to 600mA, with full thermal and reverse circuit protection, and added extra decoupling capacitance to increase the sensitivity of the ADC readings. We've decreased the brightness of the power, 13, and TX/RX LEDs from blinding to just perfect. We've added 3.3V voltage translation and a [Qwiic connector](https://www.sparkfun.com/qwiic) to the edge of the board to allow for quick and seamless connection to our ever-growing line of I<sup>2</sup>C based [Qwiic](https://www.sparkfun.com/qwiic) products. 
+The BlackBoard Artemis ATP has the improved power conditioning and USB to serial that we've refined over the years on our BlackBoard line of products. A modern USB-C connector make programming easy. A Qwiic connector makes I<sup>2</sup>C easy. The ATP is fully compatible with SparkFun's Arduino core and can be programmed easily under the Arduino IDE. We've exposed the JTAG connector for more advanced users who prefer to use the power and speed of professional tools. If you need a *lot* of a GPIO with a simple to program, ready to go to market module, the ATP is the fix you need. We've added a digital MEMS microphone for folks wanting to experiment with always-on voice commands with TensorFlow and machine learning. We've even added a convenient jumper to measure current consumption for low power testing.
 
-And for more advanced users we've added a 3.3V/5V I/O jumper. Cut the trace to 5V and solder a jumper to the 3.3V side and the board will run at 3.3V. This is extremely handy if you have a shield or 3.3V sensitive devices, such as an SPI interface, that needs protecting.
+With 1M flash and 384k RAM you'll have plenty of room for your sketches. The Artemis module runs at 48MHz with a 96MHz turbo mode available and with Bluetooth to boot!
 
-The SparkFun BlackBoard comes fully tested with the Optiboot bootloader and can be easily programmed with the 'Arduino/Genuino Uno' option from within Arduino. You can power the BlackBoard over USB or through the barrel jack. The on-board power regulator can handle anything from 7 to 15VDC. Check out the related items below for a compatible wall-wart power supply.
+The SparkFun BlackBoard Artemis ATP is a powerful platform if you're interesting in testing out the full capabilities of the SparkFun Artemis module. If you're looking for more compact solution, be sure to checkout our Nano and Uno footprints for more hacker friendly products.
 
-Not sure which Arduino or Arduino-compatible board is right for you? Check out our [Arduino Buying Guide](https://www.sparkfun.com/arduino_guide)!
+**Note:** We are actively working on getting FCC and compliance certifications for the SparkFun Artemis Module. Once our certifications are complete we will be moving the ATP to a RedBoard format with the FCC Certified version of the Artemis on board. *Please be aware* that this could happen as soon as a few weeks to a month so this BlackBoard version is for those of you who can't wait and want to start using the SparkFun Artemis as soon as possible!
 
 Repository Contents
 -------------------
-* **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 
 License Information
