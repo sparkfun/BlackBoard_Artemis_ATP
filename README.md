@@ -18,6 +18,14 @@ Repository Contents
 -------------------
 * **/Hardware** - Eagle design files (.brd, .sch)
 
+
+Documentation
+-------------------
+* **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
+* **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)
+* **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)
+
+
 License Information
 -------------------
 
