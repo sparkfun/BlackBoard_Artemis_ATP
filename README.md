@@ -21,10 +21,9 @@ Repository Contents
 
 Documentation
 -------------------
-* **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
-* **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)
-* **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)
-
+* **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)** - Layout and design considerations when using the Artemis module.
+* **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)** - Introduction to the Arduino core for the Artemis Module.
+* **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Getting set up with the Apollo3 Software Development Kit.
 
 License Information
 -------------------
