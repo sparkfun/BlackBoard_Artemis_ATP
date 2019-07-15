@@ -1,8 +1,9 @@
 SparkFun BlackBoard Artemis ATP
 ============================
 
-[![SparkFun BlackBoard Artemis ATP](https://cdn.sparkfun.com//assets/parts/1/3/9/6/4/15412-BlackBoard_Artemis_Mega-02.jpg)  
-*SparkFun BlackBoard Artemis ATP (SPX-15412)*](https://www.sparkfun.com/products/15412)
+![SparkFun BlackBoard Artemis ATP](https://cdn.sparkfun.com/assets/parts/1/3/9/6/4/15412-BlackBoard_Artemis_ATP-02.jpg)
+
+[*SparkFun BlackBoard Artemis ATP (SPX-15412)*](https://www.sparkfun.com/products/15412)
 
 The BlackBoard Artemis ATP is affectionately called 'All the Pins!' at SparkFun. The Artemis module has 48 GPIO and this board breaks out absolutely every one of them in a familiar Mega like form factor. What's with the silkscreen labels? They're all over the place. We decided to label the pins as they are assigned on the Apollo3 IC itself. This makes finding the pin with the function you desire a lot easier. Have a look at the [full pin map](https://cdn.sparkfun.com/assets/8/2/3/3/c/Apollo3_Pad_Mapping.pdf) from the Apollo3 datasheet. If you really need to test out the 4-bit SPI functionality of the Artemis you're going to need to access pins 4, 22, 23, and 26. Need to try out the differential ADC port 1? Pins 14 and 15. The BlackBoard Artemis ATP will allow you to flex the impressive capabilities of the Artemis module.
 
@@ -21,6 +22,7 @@ Repository Contents
 
 Documentation
 -------------------
+* **[BlackBoard Artemis ATP Hookup Guide](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-blackboard-artemis-atp)** - Hookup Guide for the BlackBoard Artemis ATP
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)** - Layout and design considerations when using the Artemis module.
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)** - Introduction to the Arduino core for the Artemis Module.
 * **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Getting set up with the Apollo3 Software Development Kit.
